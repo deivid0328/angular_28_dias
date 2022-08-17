@@ -1,0 +1,8 @@
+.fila{
+    display: flex !important;
+    flex-wrap: wrap;
+} 
+
+.boton{
+    margin-top: 10px;
+}

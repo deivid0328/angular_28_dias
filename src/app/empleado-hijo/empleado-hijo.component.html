@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <div>
+          {{i+1}}. {{ empleado.nombre }} {{empleado.apellido}} {{empleado.cargo}} {{empleado.salario}} 
+          <a [routerLink]="['/actualiza', i]" [queryParams]="{accion:'1'}">
+          
+            Actualizae
+        </a>
+        &nbsp;&nbsp;
+        <a [routerLink]="['/actualiza', i]" [queryParams]="{accion:'2'}">
+          
+          Eliminar
+      </a>
+        </div>
+        
+        </div>  
+    </div>
+  </div>
